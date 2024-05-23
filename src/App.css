@@ -148,3 +148,260 @@ input {
   background-color: #7cc5d9;
   font-weight: 600;
 }
+.user-image {
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: cover;
+}
+.delete-button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background: darkred;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.nav-bar h1 {
+  margin: 0;
+}
+
+.nav-bar button {
+  margin-left: 1rem;
+}
+
+.sign-in img {
+  height: 30px;
+}
+
+.video-call {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.video-call:hover {
+  background-color: #45a049;
+}
+
+.end-call {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.end-call:hover {
+  background-color: #e53935;
+}
+.chat-bubble {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.chat-bubble__left {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-bubble__right {
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-message {
+  margin: 5px 0;
+}
+
+.user-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.delete-button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background: darkred;
+}
+.sound-wave {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  display: none;
+}
+.chat-bubble {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.chat-bubble__left {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-bubble__right {
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-message {
+  margin: 5px 0;
+}
+
+.user-image {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.reaction-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.reaction-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button, .edit-button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-button {
+  background: blue;
+}
+
+.delete-button:hover {
+  background: darkred;
+}
+
+.edit-button:hover {
+  background: darkblue;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.modal-name,
+.modal-email {
+  margin: 5px 0;
+}
+
+.close-button {
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background: #555;
+}
+
+.edit-textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.save-button {
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.save-button:hover {
+  background: darkgreen;
+}
+
+
